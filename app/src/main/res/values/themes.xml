@@ -1,0 +1,17 @@
+<resources>
+
+	<style name="Theme.PDFViewer" parent="Theme.AppCompat.DayNight.NoActionBar">
+		<item name="colorPrimary">@color/blue_600</item>
+		<item name="android:windowBackground">@android:color/white</item>
+		<item name="android:windowActivityTransitions">true</item>
+	</style>
+
+	<style name="Theme.PDFViewer.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="Theme.PDFViewer.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+	<style name="Theme.PDFViewer.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
